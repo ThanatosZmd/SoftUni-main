@@ -1,0 +1,29 @@
+extra = float(input())
+extra = int(extra*100)
+coins = 0
+while extra>0:
+    if extra >=200:
+        coins += 1
+        extra -= 200
+    elif extra >= 100:
+        coins+=1
+        extra-=100
+    elif extra >= 50:
+        coins+=1
+        extra-=50
+    elif extra >= 20:
+        coins+=1
+        extra-=20
+    elif extra >=10:
+        coins+=1
+        extra-=10
+    elif extra >= 5:
+        coins+=1
+        extra-=5
+    elif extra >= 2:
+        coins+=1
+        extra-=2
+    elif extra>=1:
+        coins+=1
+        extra-=1
+print(coins)
