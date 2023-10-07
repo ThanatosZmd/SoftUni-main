@@ -1,2 +1,1 @@
-# SoftUni-main
-# this is all my work from the softuni courses i've taken
+# This is all the work I've done in the SoftUni courses I've taken so far.
